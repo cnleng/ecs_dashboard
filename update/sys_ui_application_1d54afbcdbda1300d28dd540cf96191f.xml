@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>ECS Dashboard</name>
+        <order/>
+        <roles>x_219618_ecs_dashb.ecs_namespace_details_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-23 19:19:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1d54afbcdbda1300d28dd540cf96191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ECS Dashboard</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ecs_dashboard" source="x_219618_ecs_dashb">09795b74dbda1300d28dd540cf96198a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ecs_dashboard">09795b74dbda1300d28dd540cf96198a</sys_scope>
+        <sys_update_name>sys_ui_application_1d54afbcdbda1300d28dd540cf96191f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-23 19:19:19</sys_updated_on>
+    </sys_ui_application>
+</record_update>

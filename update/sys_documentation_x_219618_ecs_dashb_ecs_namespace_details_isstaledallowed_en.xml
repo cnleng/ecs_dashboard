@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="isstaledallowed" label="isStaledAllowed" language="en" table="x_219618_ecs_dashb_ecs_namespace_details">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>isstaledallowed</element>
+            <help/>
+            <hint/>
+            <label>isStaledAllowed</label>
+            <language>en</language>
+            <name>x_219618_ecs_dashb_ecs_namespace_details</name>
+            <plural>isStaledAllowed</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-23 20:46:12</sys_created_on>
+            <sys_id>3d387b78db1e1300d28dd540cf9619cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>isStaledAllowed</sys_name>
+            <sys_package display_value="ecs_dashboard" source="x_219618_ecs_dashb">09795b74dbda1300d28dd540cf96198a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ecs_dashboard">09795b74dbda1300d28dd540cf96198a</sys_scope>
+            <sys_update_name>sys_documentation_x_219618_ecs_dashb_ecs_namespace_details_isstaledallowed_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-23 20:46:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
