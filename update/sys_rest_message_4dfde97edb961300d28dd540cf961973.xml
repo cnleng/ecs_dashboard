@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <authentication_type>no_authentication</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description>Fetch namespace quotas from ECS Clusters</description>
+        <name>ECS Get namespace quotas</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>http://ec2-18-218-101-83.us-east-2.compute.amazonaws.com:8080/namespaces/quotas</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-29 15:51:45</sys_created_on>
+        <sys_id>4dfde97edb961300d28dd540cf961973</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ECS Get namespace quotas</sys_name>
+        <sys_package display_value="ecs_dashboard" source="x_219618_ecs_dashb">09795b74dbda1300d28dd540cf96198a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ecs_dashboard">09795b74dbda1300d28dd540cf96198a</sys_scope>
+        <sys_update_name>sys_rest_message_4dfde97edb961300d28dd540cf961973</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-29 15:51:45</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description>Get namespace details from ECS REST Api</description>
+        <flush_cache>false</flush_cache>
+        <name>Get namespace details Script</name>
+        <run_once>true</run_once>
+        <script><![CDATA[//try {
+	var webService = 'x_219618_ecs_dashb.ECS get namespace details';
+	var method = 'GET';
+	var restMessage = new sn_ws.RESTMessageV2(webService, method);
+	
+	//override authentication profile
+	//authentication type ='basic'/ 'oauth2'
+	//r.setAuthentication(authentication type, profile name);
+	
+	var response = restMessage.execute();
+	var responseBody = response.getBody();
+	var httpStatus = response.getStatusCode();
+	var datas = JSON.parse(responseBody);
+
+	for (var i=0; i<datas.length; i++) {
+		gs.error('namespace details retrieved from ECS ' + datas[i].allowedVPools );
+	}
+    
+//}catch(ex) {
+	//var message = ex.getMessage();
+	//gs.info(ex);
+//}
+]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-29 20:10:39</sys_created_on>
+        <sys_id>157462fadb1a1300d28dd540cf961907</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>Get namespace details Script</sys_name>
+        <sys_package display_value="ecs_dashboard" source="x_219618_ecs_dashb">09795b74dbda1300d28dd540cf96198a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ecs_dashboard">09795b74dbda1300d28dd540cf96198a</sys_scope>
+        <sys_update_name>sys_script_fix_157462fadb1a1300d28dd540cf961907</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-29 21:19:31</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>
