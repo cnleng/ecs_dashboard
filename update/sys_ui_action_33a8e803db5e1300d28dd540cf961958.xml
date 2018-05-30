@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>GetNamespaceDetails</action_name>
+        <active>true</active>
+        <client>true</client>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>true</form_context_menu>
+        <form_link>true</form_link>
+        <form_style>primary</form_style>
+        <hint>Get Namespace Details</hint>
+        <list_action>true</list_action>
+        <list_banner_button>true</list_banner_button>
+        <list_button>true</list_button>
+        <list_choice>true</list_choice>
+        <list_context_menu>true</list_context_menu>
+        <list_link>true</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style>primary</list_style>
+        <name>Get Namespace Details</name>
+        <onclick>getNameSpaceDetail()</onclick>
+        <order>1</order>
+        <script><![CDATA[function getNameSpaceDetail() {
+ 	var webService = 'x_219618_ecs_dashb.ECS get namespace details';
+ 	var method = 'GET';
+ 	var restMessage = new sn_ws.RESTMessageV2(webService, method);
+	
+ 	var response = restMessage.execute();
+ 	var responseBody = response.getBody();
+ 	var httpStatus = response.getStatusCode();
+ 	var datas = JSON.parse(responseBody);
+	
+ 	var postRestService = new sn_ws.RESTMessageV2();
+ 	postRestService.setEndpoint('https://dev34384.service-now.com/api/now/table/x_219618_ecs_dashb_ecs_namespace_details');
+ 	postRestService.setHttpMethod('POST');
+	
+ 	var user = 'admin';
+ 	var password = 'Dang3rous';
+	postRestService.setBasicAuth(user,password);
+	postRestService.setRequestHeader("Accept","application/json");
+	postRestService.setRequestHeader('Content-Type','application/json');
+	
+	
+	for (var i=0; i<datas.length; i++) {
+		var allowedVPools = JSON.stringify(datas[i].allowedVPools);
+		var id = JSON.stringify(datas[i].id);
+		var link = JSON.stringify(datas[i].link);
+		var name = JSON.stringify(datas[i].name);
+		var namespaceAdmins = JSON.stringify(datas[i].namespaceAdmins);
+		var defaultDataServicesVPool = JSON.stringify(datas[i].defaultDataServicesVPool);
+		var disallowedVPools = JSON.stringify(datas[i].disallowedVPools);
+		var isEncryptionEnabled = JSON.stringify(datas[i].isEncryptionEnabled);
+		var isStaledAllowed = JSON.stringify(datas[i].isStaledAllowed);
+		var isComplianceEnabled = JSON.stringify(datas[i].isComplianceEnabled);
+		var global = JSON.stringify(datas[i].global);
+		var inactive = JSON.stringify(datas[i].inactive);
+		var remote = JSON.stringify(datas[i].remote);
+		var internal = JSON.stringify(datas[i].internal);
+		var vdc = JSON.stringify(datas[i].vdc);
+		var userMappings = JSON.stringify(datas[i].userMappings);
+		var groups = JSON.stringify(datas[i].groups);
+		var creationTime = JSON.stringify(datas[i].creationTime);
+		var defaultBucketBlockSize = JSON.stringify(datas[i].defaultBucketBlockSize);
+		var externalGroupAdmins = JSON.stringify(datas[i].externalGroupAdmins);
+		postRestService.setRequestBody("{\"allowedvpools\":"+allowedVPools+",\"defaultdataservicesvpool\":"+defaultDataServicesVPool+",\"disallowedvpools\":"+disallowedVPools+",\"externalgroupadmins\":"+externalGroupAdmins+",\"global\":"+global+",\"id\":"+id+",\"inactive\":"+inactive+",\"internal\":"+internal+",\"iscomplianceenabled\":"+isComplianceEnabled+",\"isencryptionenabled\":"+isEncryptionEnabled+",\"isstaledallowed\":"+isStaledAllowed+",\"link\":"+link+",\"name\":"+name+",\"namespaceadmins\":"+namespaceAdmins+",\"u_defaultbucketblocksize\":"+defaultBucketBlockSize+",\"usermappings\":"+userMappings+",\"vdc\":"+vdc+"}");
+			var postRresponse = postRestService.execute();
+		}
+		alert("NamespaceDetails have been imported.");
+	}
+	]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>false</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-30 05:28:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>33a8e803db5e1300d28dd540cf961958</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Get Namespace Details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ecs_dashboard" source="x_219618_ecs_dashb">09795b74dbda1300d28dd540cf96198a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ecs_dashboard">09795b74dbda1300d28dd540cf96198a</sys_scope>
+        <sys_update_name>sys_ui_action_33a8e803db5e1300d28dd540cf961958</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-30 14:42:52</sys_updated_on>
+        <table>x_219618_ecs_dashb_ecs_namespace_details</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>
