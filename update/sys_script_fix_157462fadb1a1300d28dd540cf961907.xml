@@ -7,41 +7,63 @@
         <flush_cache>false</flush_cache>
         <name>Get namespace details Script</name>
         <run_once>true</run_once>
-        <script><![CDATA[//try {
-	var webService = 'x_219618_ecs_dashb.ECS get namespace details';
+        <script><![CDATA[	var webService = 'x_219618_ecs_dashb.ECS get namespace details';
 	var method = 'GET';
 	var restMessage = new sn_ws.RESTMessageV2(webService, method);
-	
-	//override authentication profile
-	//authentication type ='basic'/ 'oauth2'
-	//r.setAuthentication(authentication type, profile name);
 	
 	var response = restMessage.execute();
 	var responseBody = response.getBody();
 	var httpStatus = response.getStatusCode();
 	var datas = JSON.parse(responseBody);
-
-	for (var i=0; i<datas.length; i++) {
-		gs.error('namespace details retrieved from ECS ' + datas[i].allowedVPools );
+	
+	var postRestService = new sn_ws.RESTMessageV2();
+	postRestService.setEndpoint('https://dev34384.service-now.com/api/now/table/x_219618_ecs_dashb_ecs_namespace_details');
+	postRestService.setHttpMethod('POST');
+	
+	var user = 'admin';
+	var password = 'Dang3rous';
+	postRestService.setBasicAuth(user,password);
+	postRestService.setRequestHeader("Accept","application/json");
+	postRestService.setRequestHeader('Content-Type','application/json');
+	
+	
+for (var i=0; i<datas.length; i++) {
+	var allowedVPools = JSON.stringify(datas[i].allowedVPools);
+	var id = JSON.stringify(datas[i].id);
+	var link = JSON.stringify(datas[i].link);
+	var name = JSON.stringify(datas[i].name);
+	var namespaceAdmins = JSON.stringify(datas[i].namespaceAdmins);
+	var defaultDataServicesVPool = JSON.stringify(datas[i].defaultDataServicesVPool);
+	var disallowedVPools = JSON.stringify(datas[i].disallowedVPools);
+	var isEncryptionEnabled = JSON.stringify(datas[i].isEncryptionEnabled);
+	var isStaledAllowed = JSON.stringify(datas[i].isStaledAllowed);
+	var isComplianceEnabled = JSON.stringify(datas[i].isComplianceEnabled);
+	var global = JSON.stringify(datas[i].global);
+	var inactive = JSON.stringify(datas[i].inactive);
+	var remote = JSON.stringify(datas[i].remote);
+	var internal = JSON.stringify(datas[i].internal);
+	var vdc = JSON.stringify(datas[i].vdc);
+	var userMappings = JSON.stringify(datas[i].userMappings);
+	var groups = JSON.stringify(datas[i].groups);
+	var creationTime = JSON.stringify(datas[i].creationTime);
+	var defaultBucketBlockSize = JSON.stringify(datas[i].defaultBucketBlockSize);
+	var externalGroupAdmins = JSON.stringify(datas[i].externalGroupAdmins);
+	postRestService.setRequestBody("{\"allowedvpools\":"+allowedVPools+",\"defaultdataservicesvpool\":"+defaultDataServicesVPool+",\"disallowedvpools\":"+disallowedVPools+",\"externalgroupadmins\":"+externalGroupAdmins+",\"global\":"+global+",\"id\":"+id+",\"inactive\":"+inactive+",\"internal\":"+internal+",\"iscomplianceenabled\":"+isComplianceEnabled+",\"isencryptionenabled\":"+isEncryptionEnabled+",\"isstaledallowed\":"+isStaledAllowed+",\"link\":"+link+",\"name\":"+name+",\"namespaceadmins\":"+namespaceAdmins+",\"u_defaultbucketblocksize\":"+defaultBucketBlockSize+",\"usermappings\":"+userMappings+",\"vdc\":"+vdc+"}");
+		var postRresponse = postRestService.execute();
 	}
-    
-//}catch(ex) {
-	//var message = ex.getMessage();
-	//gs.info(ex);
-//}
-]]></script>
+		]]></script>
         <sys_class_name>sys_script_fix</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-29 20:10:39</sys_created_on>
         <sys_id>157462fadb1a1300d28dd540cf961907</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_name>Get namespace details Script</sys_name>
         <sys_package display_value="ecs_dashboard" source="x_219618_ecs_dashb">09795b74dbda1300d28dd540cf96198a</sys_package>
         <sys_policy/>
         <sys_scope display_value="ecs_dashboard">09795b74dbda1300d28dd540cf96198a</sys_scope>
         <sys_update_name>sys_script_fix_157462fadb1a1300d28dd540cf961907</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-29 21:19:31</sys_updated_on>
+        <sys_updated_on>2018-05-30 05:11:31</sys_updated_on>
         <unloadable>false</unloadable>
     </sys_script_fix>
 </record_update>
