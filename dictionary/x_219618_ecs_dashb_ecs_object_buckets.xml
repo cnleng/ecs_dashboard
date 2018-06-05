@@ -1,4 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="ecs_object_buckets" max_length="40" name="x_219618_ecs_dashb_ecs_object_buckets" type="collection"/>
+    <element label="ecs_object_buckets" max_length="40" name="x_219618_ecs_dashb_ecs_object_buckets" type="collection">
+        <element label="apiType" max_length="400" name="apitype" type="string"/>
+        <element label="blockSize" max_length="40" name="blocksize" type="longint"/>
+        <element label="bucketOwner" max_length="400" name="bucketowner" type="string"/>
+        <element label="creationTime" max_length="400" name="creationtime" type="string"/>
+        <element label="defaultGroup" max_length="400" name="defaultgroup" type="string"/>
+        <element label="defaultGroupDirExecutePermission" max_length="40" name="defaultgroupdirexecutepermission" type="boolean"/>
+        <element label="defaultGroupDirReadPermission" max_length="40" name="defaultgroupdirreadpermission" type="boolean"/>
+        <element label="defaultGroupDirWritePermission" max_length="40" name="defaultgroupdirwritepermission" type="boolean"/>
+        <element label="defaultGroupFileExecutePermission" max_length="40" name="defaultgroupfileexecutepermission" type="boolean"/>
+        <element label="defaultGroupFileReadPermission" max_length="40" name="defaultgroupfilereadpermission" type="boolean"/>
+        <element label="defaultGroupFileWritePermission" max_length="40" name="defaultgroupfilewritepermission" type="boolean"/>
+        <element label="defaultRetention" max_length="400" name="defaultretention" type="longint"/>
+        <element label="Filter" max_length="400" name="filter" type="string"/>
+        <element label="fsAccessEnabled" max_length="40" name="fsaccessenabled" type="boolean"/>
+        <element label="global" max_length="40" name="global" type="boolean"/>
+        <element label="ID" max_length="400" name="id" type="string"/>
+        <element label="inactive" max_length="40" name="inactive" type="boolean"/>
+        <element label="internal" max_length="40" name="internal" type="boolean"/>
+        <element label="isEncryptionEnabled" max_length="400" name="isencryptionenabled" type="string"/>
+        <element label="isStaleAllowed" max_length="40" name="isstaleallowed" type="boolean"/>
+        <element label="link" max_length="400" name="link" type="string"/>
+        <element label="locked" max_length="40" name="locked" type="boolean"/>
+        <element label="maxBuckets" max_length="40" name="maxbuckets" type="longint"/>
+        <element label="name" max_length="400" name="name" type="string"/>
+        <element label="namespace" max_length="400" name="namespace" type="string"/>
+        <element label="nextMarker" max_length="400" name="nextmarker" type="string"/>
+        <element label="nextPageLink" max_length="40" name="nextpagelink" type="longint"/>
+        <element label="notificationSize" max_length="400" name="notificationsize" type="string"/>
+        <element label="remote" max_length="40" name="remote" type="boolean"/>
+        <element label="retention" max_length="40" name="retention" type="longint"/>
+        <element label="searchMetadata" max_length="4000" name="searchmetadata" type="string"/>
+        <element label="softQuota" max_length="400" name="softquota" type="string"/>
+        <element label="tagSet" max_length="4000" name="tagset" type="string"/>
+        <element label="vdc" max_length="2000" name="vdc" type="string"/>
+        <element label="vpool" max_length="400" name="vpool" type="string"/>
+    </element>
 </database>

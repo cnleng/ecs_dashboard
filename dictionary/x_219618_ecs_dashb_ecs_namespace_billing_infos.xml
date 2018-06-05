@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="ecs_namespace_billing_infos" max_length="40" name="x_219618_ecs_dashb_ecs_namespace_billing_infos" type="collection"/>
+    <element label="ecs_namespace_billing_infos" max_length="40" name="x_219618_ecs_dashb_ecs_namespace_billing_infos" type="collection">
+        <element label="apiType" max_length="400" name="apitype" type="string"/>
+        <element label="name" max_length="400" name="name" type="string"/>
+        <element label="namespace" max_length="400" name="namespace" type="string"/>
+        <element label="nextMarker" max_length="400" name="nextmarker" type="string"/>
+        <element label="sampleTime" max_length="400" name="sampletime" type="string"/>
+        <element label="tagSet" max_length="4000" name="tagset" type="string"/>
+        <element label="totalObjects" max_length="40" name="totalobjects" type="longint"/>
+        <element label="totalSize" max_length="40" name="totalsize" type="longint"/>
+        <element label="vpoolId" max_length="400" name="vpoolid" type="string"/>
+    </element>
 </database>
