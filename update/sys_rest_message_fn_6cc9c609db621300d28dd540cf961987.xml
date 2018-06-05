@@ -6,26 +6,26 @@
         <basic_auth_profile/>
         <basic_auth_user/>
         <content/>
-        <function_name>GET</function_name>
-        <http_method>get</http_method>
+        <function_name>POST</function_name>
+        <http_method>post</http_method>
         <lock>false</lock>
         <oauth2_profile/>
         <protocol_name/>
-        <qualified_name>ECS Get namespace details [ GET ]</qualified_name>
-        <rest_endpoint>http://ec2-18-218-101-83.us-east-2.compute.amazonaws.com:8080/namespaces/details</rest_endpoint>
+        <qualified_name>ECS Get namespace details [ POST ]</qualified_name>
+        <rest_endpoint>http://ec2-18-218-101-83.us-east-2.compute.amazonaws.com:8080/namespaces/details?relativeDayShift=${relativeDayShift}</rest_endpoint>
         <rest_message display_value="ECS Get namespace details">f7a9e13edb961300d28dd540cf961967</rest_message>
         <sys_class_name>sys_rest_message_fn</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-05-29 15:34:13</sys_created_on>
-        <sys_id>ae5aa93edb961300d28dd540cf9619c7</sys_id>
+        <sys_created_on>2018-06-05 17:39:29</sys_created_on>
+        <sys_id>6cc9c609db621300d28dd540cf961987</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>GET</sys_name>
+        <sys_name>POST</sys_name>
         <sys_package display_value="ecs_dashboard" source="x_219618_ecs_dashb">09795b74dbda1300d28dd540cf96198a</sys_package>
         <sys_policy/>
         <sys_scope display_value="ecs_dashboard">09795b74dbda1300d28dd540cf96198a</sys_scope>
-        <sys_update_name>sys_rest_message_fn_ae5aa93edb961300d28dd540cf9619c7</sys_update_name>
+        <sys_update_name>sys_rest_message_fn_6cc9c609db621300d28dd540cf961987</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-29 19:59:38</sys_updated_on>
+        <sys_updated_on>2018-06-05 21:02:20</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mid_server/>
         <use_mutual_auth>false</use_mutual_auth>
