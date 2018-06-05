@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="ecs_namespace_billing_infos" max_length="40" name="x_219618_ecs_dashb_ecs_namespace_billing_infos" type="collection"/>
+</database>

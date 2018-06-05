@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-05 02:52:09</sys_created_on>
+        <sys_id>a30f763cdba21300d28dd540cf96196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_219618_ecs_dashb_ecs_object_buckets.x_219618_ecs_dashb.ecs_object_buckets_user</sys_name>
+        <sys_package display_value="ecs_dashboard" source="x_219618_ecs_dashb">09795b74dbda1300d28dd540cf96198a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ecs_dashboard">09795b74dbda1300d28dd540cf96198a</sys_scope>
+        <sys_security_acl display_value="x_219618_ecs_dashb_ecs_object_buckets">a70f763cdba21300d28dd540cf96196b</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a30f763cdba21300d28dd540cf96196e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-05 02:52:09</sys_updated_on>
+        <sys_user_role display_value="x_219618_ecs_dashb.ecs_object_buckets_user" name="x_219618_ecs_dashb.ecs_object_buckets_user">670f36f8dba21300d28dd540cf961906</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

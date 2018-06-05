@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="fd164330dbe21300d28dd540cf96190a" sys_domain="global" table="x_219618_ecs_dashb_ecs_vdc_details" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-05 03:25:45</sys_created_on>
+            <sys_id>73b64330dbe21300d28dd540cf96196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_219618_ecs_dashb_ecs_vdc_details" sys_domain="global" view="Default view">fd164330dbe21300d28dd540cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-05 03:25:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vdcid</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-05 03:28:45</sys_created_on>
+            <sys_id>b3674330dbe21300d28dd540cf961915</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_219618_ecs_dashb_ecs_vdc_details" sys_domain="global" view="Default view">fd164330dbe21300d28dd540cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-05 03:28:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vdcname</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-05 03:30:00</sys_created_on>
+            <sys_id>8eb78770dbe21300d28dd540cf9619e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_219618_ecs_dashb_ecs_vdc_details" sys_domain="global" view="Default view">fd164330dbe21300d28dd540cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-05 03:30:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>intervdcendpoints</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-05 03:33:01</sys_created_on>
+            <sys_id>12684770dbe21300d28dd540cf9619c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_219618_ecs_dashb_ecs_vdc_details" sys_domain="global" view="Default view">fd164330dbe21300d28dd540cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-05 03:33:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>intervdccmdendpoints</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-05 03:34:26</sys_created_on>
+            <sys_id>87b8cf70dbe21300d28dd540cf961994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_219618_ecs_dashb_ecs_vdc_details" sys_domain="global" view="Default view">fd164330dbe21300d28dd540cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-05 03:34:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>secretkeyssecretkeys</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-05 03:36:12</sys_created_on>
+            <sys_id>452903b0dbe21300d28dd540cf96190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_219618_ecs_dashb_ecs_vdc_details" sys_domain="global" view="Default view">fd164330dbe21300d28dd540cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-05 03:36:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>secretkeys</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-05 03:37:16</sys_created_on>
+            <sys_id>6c690770dbe21300d28dd540cf9619d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_219618_ecs_dashb_ecs_vdc_details" sys_domain="global" view="Default view">fd164330dbe21300d28dd540cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-05 03:37:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>permanentlyfailed</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-05 03:39:43</sys_created_on>
+            <sys_id>24f94fb0dbe21300d28dd540cf9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_219618_ecs_dashb_ecs_vdc_details" sys_domain="global" view="Default view">fd164330dbe21300d28dd540cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-05 03:39:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>local</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-05 03:40:36</sys_created_on>
+            <sys_id>d92ac7b0dbe21300d28dd540cf96199b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_219618_ecs_dashb_ecs_vdc_details" sys_domain="global" view="Default view">fd164330dbe21300d28dd540cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-05 03:40:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>managementendpoints</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-05 03:41:18</sys_created_on>
+            <sys_id>2b4a8fb0dbe21300d28dd540cf9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_219618_ecs_dashb_ecs_vdc_details" sys_domain="global" view="Default view">fd164330dbe21300d28dd540cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-05 03:41:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>namename</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-05 03:42:22</sys_created_on>
+            <sys_id>5b8a43f0dbe21300d28dd540cf9619bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_219618_ecs_dashb_ecs_vdc_details" sys_domain="global" view="Default view">fd164330dbe21300d28dd540cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-05 03:42:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-05 03:44:15</sys_created_on>
+            <sys_id>f2fa4bf0dbe21300d28dd540cf961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_219618_ecs_dashb_ecs_vdc_details" sys_domain="global" view="Default view">fd164330dbe21300d28dd540cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-05 03:44:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>id</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-05 03:45:12</sys_created_on>
+            <sys_id>f43b47f0dbe21300d28dd540cf96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_219618_ecs_dashb_ecs_vdc_details" sys_domain="global" view="Default view">fd164330dbe21300d28dd540cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-05 03:45:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>link</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-05 03:46:36</sys_created_on>
+            <sys_id>898bcbf0dbe21300d28dd540cf961913</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_219618_ecs_dashb_ecs_vdc_details" sys_domain="global" view="Default view">fd164330dbe21300d28dd540cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-05 03:46:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>creationtimecreationtime</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-05 03:48:44</sys_created_on>
+            <sys_id>6c0c4734dbe21300d28dd540cf96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_219618_ecs_dashb_ecs_vdc_details" sys_domain="global" view="Default view">fd164330dbe21300d28dd540cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-05 03:48:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inactive</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-05 03:49:22</sys_created_on>
+            <sys_id>bd2cc734dbe21300d28dd540cf9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_219618_ecs_dashb_ecs_vdc_details" sys_domain="global" view="Default view">fd164330dbe21300d28dd540cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-05 03:49:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>global</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-05 03:50:33</sys_created_on>
+            <sys_id>436c4734dbe21300d28dd540cf96196d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_219618_ecs_dashb_ecs_vdc_details" sys_domain="global" view="Default view">fd164330dbe21300d28dd540cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-05 03:50:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>remote</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-05 03:51:08</sys_created_on>
+            <sys_id>ef8cc334dbe21300d28dd540cf961986</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_219618_ecs_dashb_ecs_vdc_details" sys_domain="global" view="Default view">fd164330dbe21300d28dd540cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-05 03:51:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>internal</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-05 03:51:52</sys_created_on>
+            <sys_id>eabc0f34dbe21300d28dd540cf9619ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_219618_ecs_dashb_ecs_vdc_details" sys_domain="global" view="Default view">fd164330dbe21300d28dd540cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-05 03:51:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vdc</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-05 03:54:23</sys_created_on>
+            <sys_id>df4dcf34dbe21300d28dd540cf96191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_219618_ecs_dashb_ecs_vdc_details" sys_domain="global" view="Default view">fd164330dbe21300d28dd540cf96190a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-05 03:54:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_219618_ecs_dashb_ecs_vdc_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-05 03:22:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fd164330dbe21300d28dd540cf96190a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_219618_ecs_dashb_ecs_vdc_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ecs_dashboard" source="x_219618_ecs_dashb">09795b74dbda1300d28dd540cf96198a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ecs_dashboard">09795b74dbda1300d28dd540cf96198a</sys_scope>
+            <sys_update_name>sys_ui_section_fd164330dbe21300d28dd540cf96190a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-05 03:22:53</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

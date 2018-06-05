@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="ecs_vdc_details" max_length="40" name="x_219618_ecs_dashb_ecs_vdc_details" type="collection">
+        <element label="creationTime" max_length="200" name="creationtimecreationtime" type="string"/>
+        <element label="Global" max_length="40" name="global" type="boolean"/>
+        <element label="ID" max_length="400" name="id" type="string"/>
+        <element label="Inactive" max_length="40" name="inactive" type="boolean"/>
+        <element label="internal" max_length="40" name="internal" type="boolean"/>
+        <element label="interVdcCmdEndPoints" max_length="400" name="intervdccmdendpoints" type="string"/>
+        <element label="interVdcEndPoints" max_length="400" name="intervdcendpoints" type="string"/>
+        <element label="link" max_length="400" name="link" type="string"/>
+        <element label="Local" max_length="40" name="local" type="boolean"/>
+        <element label="managementEndPoints" max_length="400" name="managementendpoints" type="string"/>
+        <element label="name" max_length="400" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="permanentlyFailed" max_length="40" name="permanentlyfailed" type="boolean"/>
+        <element label="remote" max_length="40" name="remote" type="boolean"/>
+        <element label="secretKeys" max_length="400" name="secretkeys" type="string"/>
+        <element label="Vdc" max_length="4000" name="vdc" type="string"/>
+        <element label="vdcId" max_length="200" name="vdcid" type="string"/>
+        <element label="vdcName" max_length="400" name="vdcname" type="string"/>
+    </element>
+</database>
