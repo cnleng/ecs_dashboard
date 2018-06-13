@@ -10,19 +10,19 @@
         <name>ECS Get vdc details</name>
         <oauth2_profile/>
         <protocol_name/>
-        <rest_endpoint>http://ec2-18-218-101-83.us-east-2.compute.amazonaws.com:8080/vdc/vdcDetails</rest_endpoint>
+        <rest_endpoint>http://10.230.116.153:8080/vdc/vdcDetails</rest_endpoint>
         <sys_class_name>sys_rest_message</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-05 17:42:24</sys_created_on>
         <sys_id>182742c5db621300d28dd540cf9619f2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>ECS Get vdc details</sys_name>
         <sys_package display_value="ecs_dashboard" source="x_219618_ecs_dashb">09795b74dbda1300d28dd540cf96198a</sys_package>
         <sys_policy/>
         <sys_scope display_value="ecs_dashboard">09795b74dbda1300d28dd540cf96198a</sys_scope>
         <sys_update_name>sys_rest_message_182742c5db621300d28dd540cf9619f2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-05 17:42:24</sys_updated_on>
+        <sys_updated_on>2018-06-13 05:34:36</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mutual_auth>false</use_mutual_auth>
     </sys_rest_message>
