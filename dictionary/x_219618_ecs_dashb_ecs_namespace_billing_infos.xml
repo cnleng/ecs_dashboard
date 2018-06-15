@@ -9,6 +9,7 @@
         <element label="tagSet" max_length="4000" name="tagset" type="string"/>
         <element label="totalObjects" max_length="40" name="totalobjects" type="longint"/>
         <element label="totalSize" max_length="40" name="totalsize" type="longint"/>
+        <element default="0" label="totalSizeUnit" max_length="40" name="totalsizeunit" type="longint"/>
         <element label="vpoolId" max_length="400" name="vpoolid" type="string"/>
     </element>
 </database>
