@@ -6,7 +6,7 @@
         <element attributes="edge_encryption_enabled=true" label="disallowedVPools" max_length="4000" name="disallowedvpools" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="externalGroupAdmins" max_length="40" name="externalgroupadmins" type="string"/>
         <element label="global" max_length="40" name="global" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="id" mandatory="true" max_length="125" name="id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="id" max_length="125" name="id" type="string"/>
         <element label="inactive" max_length="40" name="inactive" type="boolean"/>
         <element label="internal" max_length="40" name="internal" type="boolean"/>
         <element label="isComplianceEnabled" max_length="40" name="iscomplianceenabled" type="boolean"/>
