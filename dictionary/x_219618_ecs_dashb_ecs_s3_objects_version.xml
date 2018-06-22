@@ -8,6 +8,7 @@
         <element label="key" max_length="200" name="key" type="string"/>
         <element label="lastmodified" max_length="40" name="lastmodified" type="glide_date_time"/>
         <element label="namespace" max_length="200" name="namespace" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="owner" max_length="400" name="owner" type="string"/>
         <element label="versionid" max_length="200" name="versionid" type="string"/>
     </element>
