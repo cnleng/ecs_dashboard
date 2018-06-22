@@ -30,6 +30,7 @@
         <element label="nextMarker" max_length="400" name="nextmarker" type="string"/>
         <element label="nextPageLink" max_length="40" name="nextpagelink" type="longint"/>
         <element label="notificationSize" max_length="400" name="notificationsize" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="remote" max_length="40" name="remote" type="boolean"/>
         <element label="retention" max_length="40" name="retention" type="longint"/>
         <element label="searchMetadata" max_length="4000" name="searchmetadata" type="string"/>
