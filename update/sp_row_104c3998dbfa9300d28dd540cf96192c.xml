@@ -4,7 +4,7 @@
         <class_name/>
         <order>1</order>
         <sp_column/>
-        <sp_container display_value="ECS Dashboard Test - Container 1">270cf594dbba9300d28dd540cf9619d7</sp_container>
+        <sp_container display_value="ECS Dashboard - Container 1">270cf594dbba9300d28dd540cf9619d7</sp_container>
         <sys_class_name>sp_row</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-15 18:59:01</sys_created_on>

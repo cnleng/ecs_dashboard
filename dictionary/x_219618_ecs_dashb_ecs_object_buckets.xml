@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="ecs_object_buckets" max_length="40" name="x_219618_ecs_dashb_ecs_object_buckets" type="collection">
+    <element label="ECS Object Buckets" max_length="40" name="x_219618_ecs_dashb_ecs_object_buckets" type="collection">
         <element label="apiType" max_length="400" name="apitype" type="string"/>
         <element label="blockSize" max_length="40" name="blocksize" type="longint"/>
         <element label="bucketOwner" max_length="400" name="bucketowner" type="string"/>

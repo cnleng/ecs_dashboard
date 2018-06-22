@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="ecs_namespace_billing_infos" max_length="40" name="x_219618_ecs_dashb_ecs_namespace_billing_infos" type="collection">
+    <element label="ECS Namespace Billing Infos" max_length="40" name="x_219618_ecs_dashb_ecs_namespace_billing_infos" type="collection">
         <element label="apiType" max_length="400" name="apitype" type="string"/>
         <element label="collectiontime" max_length="40" name="collectiontime" type="glide_date_time"/>
         <element label="name" max_length="400" name="name" type="string"/>

@@ -3,24 +3,24 @@
     <sp_page action="INSERT_OR_UPDATE">
         <css/>
         <draft>false</draft>
-        <id>ecs_dashboard_test</id>
+        <id>ecs_dashboard</id>
         <internal>false</internal>
         <public>false</public>
         <roles/>
-        <short_description/>
+        <short_description>ECS Dashboard</short_description>
         <sys_class_name>sp_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-15 18:58:09</sys_created_on>
         <sys_id>ef0cf594dbba9300d28dd540cf9619d4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>ecs_dashboard_test</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ecs_dashboard</sys_name>
         <sys_package display_value="ecs_dashboard" source="x_219618_ecs_dashb">09795b74dbda1300d28dd540cf96198a</sys_package>
         <sys_policy/>
         <sys_scope display_value="ecs_dashboard">09795b74dbda1300d28dd540cf96198a</sys_scope>
         <sys_update_name>sp_page_ef0cf594dbba9300d28dd540cf9619d4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-15 18:58:09</sys_updated_on>
-        <title>ECS Dashboard Test</title>
+        <sys_updated_on>2018-06-22 06:19:50</sys_updated_on>
+        <title>ECS Dashboard</title>
     </sp_page>
     <sys_translated_text action="delete_multiple" query="documentkey=ef0cf594dbba9300d28dd540cf9619d4"/>
 </record_update>

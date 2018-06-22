@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="ecs_bucket_owners" max_length="40" name="x_219618_ecs_dashb_ecs_bucket_owners" type="collection">
+    <element label="ECS Bucket Owners" max_length="40" name="x_219618_ecs_dashb_ecs_bucket_owners" type="collection">
         <element label="bucketKey" max_length="400" name="bucketkey" type="string"/>
         <element label="collectiontime" max_length="40" name="collectiontime" type="glide_date_time"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
