@@ -4,6 +4,7 @@
         <element label="apiType" max_length="400" name="apitype" type="string"/>
         <element label="blockSize" max_length="40" name="blocksize" type="longint"/>
         <element label="bucketOwner" max_length="400" name="bucketowner" type="string"/>
+        <element label="collectiontime" max_length="40" name="collectiontime" type="glide_date_time"/>
         <element label="creationTime" max_length="400" name="creationtime" type="string"/>
         <element label="defaultGroup" max_length="400" name="defaultgroup" type="string"/>
         <element label="defaultGroupDirExecutePermission" max_length="40" name="defaultgroupdirexecutepermission" type="boolean"/>

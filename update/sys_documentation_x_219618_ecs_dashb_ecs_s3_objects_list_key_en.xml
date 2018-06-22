@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="key" label="key" language="en" table="x_219618_ecs_dashb_ecs_s3_objects_list">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>key</element>
+            <help/>
+            <hint/>
+            <label>key</label>
+            <language>en</language>
+            <name>x_219618_ecs_dashb_ecs_s3_objects_list</name>
+            <plural>keys</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-22 04:56:19</sys_created_on>
+            <sys_id>888ef25adb321300d28dd540cf9619d7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>key</sys_name>
+            <sys_package display_value="ecs_dashboard" source="x_219618_ecs_dashb">09795b74dbda1300d28dd540cf96198a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ecs_dashboard">09795b74dbda1300d28dd540cf96198a</sys_scope>
+            <sys_update_name>sys_documentation_x_219618_ecs_dashb_ecs_s3_objects_list_key_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-22 04:57:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

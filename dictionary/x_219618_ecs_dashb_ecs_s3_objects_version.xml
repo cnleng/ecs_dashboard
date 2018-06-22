@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="ecs_s3_objects_version" max_length="40" name="x_219618_ecs_dashb_ecs_s3_objects_version" type="collection">
+        <element label="bucketname" max_length="200" name="bucketname" type="string"/>
+        <element label="collectiontime" max_length="40" name="collectiontime" type="glide_date_time"/>
+        <element label="etag" max_length="400" name="etag" type="string"/>
+        <element label="islatest" max_length="40" name="islatest" type="boolean"/>
+        <element label="key" max_length="200" name="key" type="string"/>
+        <element label="lastmodified" max_length="40" name="lastmodified" type="glide_date_time"/>
+        <element label="namespace" max_length="200" name="namespace" type="string"/>
+        <element label="owner" max_length="400" name="owner" type="string"/>
+        <element label="versionid" max_length="200" name="versionid" type="string"/>
+    </element>
+</database>

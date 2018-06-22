@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="ecs_s3_objects_query" max_length="40" name="x_219618_ecs_dashb_ecs_s3_objects_query" type="collection">
+        <element label="bucketname" max_length="200" name="bucketname" type="string"/>
+        <element label="collectiontime" max_length="40" name="collectiontime" type="glide_date_time"/>
+        <element label="metadatas" max_length="4000" name="metadatas" type="string"/>
+        <element label="namespace" max_length="200" name="namespace" type="string"/>
+        <element label="objectid" max_length="200" name="objectid" type="string"/>
+        <element label="objectname" max_length="200" name="objectname" type="string"/>
+        <element label="versionid" max_length="200" name="versionid" type="string"/>
+    </element>
+</database>

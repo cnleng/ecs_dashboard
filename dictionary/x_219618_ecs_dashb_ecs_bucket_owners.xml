@@ -2,6 +2,7 @@
 <database>
     <element label="ecs_bucket_owners" max_length="40" name="x_219618_ecs_dashb_ecs_bucket_owners" type="collection">
         <element label="bucketKey" max_length="400" name="bucketkey" type="string"/>
+        <element label="collectiontime" max_length="40" name="collectiontime" type="glide_date_time"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="vdcId" max_length="400" name="vdcid" type="string"/>
     </element>

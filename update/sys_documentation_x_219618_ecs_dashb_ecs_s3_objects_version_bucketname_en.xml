@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="bucketname" label="Bucketname" language="en" table="x_219618_ecs_dashb_ecs_s3_objects_version">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>bucketname</element>
+            <help/>
+            <hint/>
+            <label>Bucketname</label>
+            <language>en</language>
+            <name>x_219618_ecs_dashb_ecs_s3_objects_version</name>
+            <plural>Bucketnames</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-22 05:16:07</sys_created_on>
+            <sys_id>8203cb5edb321300d28dd540cf961971</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Bucketname</sys_name>
+            <sys_package display_value="ecs_dashboard" source="x_219618_ecs_dashb">09795b74dbda1300d28dd540cf96198a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ecs_dashboard">09795b74dbda1300d28dd540cf96198a</sys_scope>
+            <sys_update_name>sys_documentation_x_219618_ecs_dashb_ecs_s3_objects_version_bucketname_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-22 05:16:07</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

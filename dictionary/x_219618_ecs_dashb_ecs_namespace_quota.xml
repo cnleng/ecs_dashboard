@@ -2,6 +2,7 @@
 <database>
     <element label="ecs_namespace_quota" max_length="40" name="x_219618_ecs_dashb_ecs_namespace_quota" type="collection">
         <element label="blockSize" max_length="40" name="blocksize" type="longint"/>
+        <element label="collectiontime" max_length="40" name="collectiontime" type="glide_date_time"/>
         <element label="namespace" max_length="2000" name="namespace" type="string"/>
         <element label="notificationSize" max_length="40" name="notificationsize" type="longint"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>

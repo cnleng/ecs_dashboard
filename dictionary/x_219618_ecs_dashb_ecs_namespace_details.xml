@@ -2,6 +2,7 @@
 <database>
     <element label="ecs_namespace_details" max_length="40" name="x_219618_ecs_dashb_ecs_namespace_details" type="collection">
         <element attributes="edge_encryption_enabled=true" label="allowedVPools" max_length="4000" name="allowedvpools" type="string"/>
+        <element label="collectiontime" max_length="40" name="collectiontime" type="glide_date_time"/>
         <element label="defaultDataServicesVPool" max_length="1024" name="defaultdataservicesvpool" type="url"/>
         <element attributes="edge_encryption_enabled=true" label="disallowedVPools" max_length="4000" name="disallowedvpools" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="externalGroupAdmins" max_length="40" name="externalgroupadmins" type="string"/>

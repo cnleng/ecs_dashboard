@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="ecs_vdc_details" max_length="40" name="x_219618_ecs_dashb_ecs_vdc_details" type="collection">
+        <element label="collectiontime" max_length="40" name="collectiontime" type="glide_date_time"/>
         <element label="creationTime" max_length="200" name="creationtimecreationtime" type="string"/>
         <element label="Global" max_length="40" name="global" type="boolean"/>
         <element label="ID" max_length="400" name="id" type="string"/>
