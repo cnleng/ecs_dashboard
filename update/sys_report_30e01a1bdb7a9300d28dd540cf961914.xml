@@ -90,14 +90,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-25 04:10:57</sys_created_on>
         <sys_id>30e01a1bdb7a9300d28dd540cf961914</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Data-Size-And-Object-Count-Per-Namespace</sys_name>
         <sys_package display_value="ecs_dashboard" source="x_219618_ecs_dashb">09795b74dbda1300d28dd540cf96198a</sys_package>
         <sys_policy/>
         <sys_scope display_value="ecs_dashboard">09795b74dbda1300d28dd540cf96198a</sys_scope>
         <sys_update_name>sys_report_30e01a1bdb7a9300d28dd540cf961914</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-25 04:10:57</sys_updated_on>
+        <sys_updated_on>2018-06-25 15:15:54</sys_updated_on>
         <table>x_219618_ecs_dashb_ecs_namespace_billing_infos</table>
         <title>Data-Size-And-Object-Count-Per-Namespace</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
