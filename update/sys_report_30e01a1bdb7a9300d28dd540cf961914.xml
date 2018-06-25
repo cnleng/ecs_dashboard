@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
-        <additional_groupby>totalobjects,totalsize,apitype,name</additional_groupby>
+        <additional_groupby>namespace,totalobjects,totalsize,totalsizeunit,collectiontime,apitype</additional_groupby>
         <aggregate>COUNT</aggregate>
         <axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color>
         <axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color>
         <bar_unstack>false</bar_unstack>
-        <chart_background_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</chart_background_color>
-        <chart_border_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</chart_border_color>
+        <chart_background_color/>
+        <chart_border_color/>
         <chart_border_radius>0</chart_border_radius>
         <chart_border_width>1</chart_border_width>
         <chart_height>450</chart_height>
         <chart_size>large</chart_size>
-        <chart_title>Objects count per namespace</chart_title>
+        <chart_title>Data-Size-And-ObjectCount Per Namespace</chart_title>
         <chart_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</chart_title_color>
         <chart_title_size>16</chart_title_size>
         <chart_title_x_position>0</chart_title_x_position>
@@ -21,7 +21,7 @@
         <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
         <color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette>
         <colors/>
-        <column>sys_created_on</column>
+        <column/>
         <compute_percent>aggregate</compute_percent>
         <content/>
         <created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
@@ -37,9 +37,8 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>totalobjects</field>
         <field_list/>
-        <filter table="x_219618_ecs_dashb_ecs_namespace_billing_infos">^EQ^GROUPBYtotalobjects^TRENDBYsys_created_on,year<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <filter table="x_219618_ecs_dashb_ecs_namespace_billing_infos">^EQ^GROUPBYtotalobjects<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
             <item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="totalobjects"/>
-            <item endquery="false" field="" goto="false" newquery="false" operator="TRENDBY" or="false" value="sys_created_on,year"/>
         </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -49,8 +48,8 @@
         <interval>year</interval>
         <is_published>false</is_published>
         <is_scheduled>false</is_scheduled>
-        <legend_background_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</legend_background_color>
-        <legend_border_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</legend_border_color>
+        <legend_background_color/>
+        <legend_border_color/>
         <legend_border_radius>0</legend_border_radius>
         <legend_border_width>1</legend_border_width>
         <legend_horizontal_alignment>center</legend_horizontal_alignment>
@@ -64,18 +63,18 @@
         <orderby_list/>
         <other_threshold>-2</other_threshold>
         <others>true</others>
-        <page_hdrftr display_value="Default">0ecdb03fc3613000cef73b251eba8f5e</page_hdrftr>
+        <page_hdrftr/>
         <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
         <report_source/>
         <roles/>
-        <row>sys_created_on</row>
+        <row/>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
         <sc_stackby_item_id/>
         <sc_stackby_variable_id/>
         <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
-        <set_color>color_palette</set_color>
+        <set_color>one_color</set_color>
         <show_chart_border>false</show_chart_border>
         <show_chart_data_label>false</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
@@ -89,23 +88,23 @@
         <sumfield>sys_mod_count</sumfield>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-15 01:02:36</sys_created_on>
-        <sys_id>94e5c640db729300d28dd540cf961904</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>object_count_per_namespace</sys_name>
+        <sys_created_on>2018-06-25 04:10:57</sys_created_on>
+        <sys_id>30e01a1bdb7a9300d28dd540cf961914</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Data-Size-And-Object-Count-Per-Namespace</sys_name>
         <sys_package display_value="ecs_dashboard" source="x_219618_ecs_dashb">09795b74dbda1300d28dd540cf96198a</sys_package>
         <sys_policy/>
         <sys_scope display_value="ecs_dashboard">09795b74dbda1300d28dd540cf96198a</sys_scope>
-        <sys_update_name>sys_report_94e5c640db729300d28dd540cf961904</sys_update_name>
+        <sys_update_name>sys_report_30e01a1bdb7a9300d28dd540cf961914</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-25 04:00:16</sys_updated_on>
+        <sys_updated_on>2018-06-25 04:10:57</sys_updated_on>
         <table>x_219618_ecs_dashb_ecs_namespace_billing_infos</table>
-        <title>object_count_per_namespace</title>
+        <title>Data-Size-And-Object-Count-Per-Namespace</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
-        <trend_field>sys_created_on</trend_field>
-        <type>pie</type>
+        <trend_field/>
+        <type>bar</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
         <user>6816f79cc0a8016401c5a33be04be441</user>
